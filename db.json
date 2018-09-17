@@ -1,16 +1,28 @@
 {
   "posts": [
     {
-      "Id": 11234,
-      "Status": "Open"
+      "id": 1,
+      "title": "Post 1"
     },
     {
-      "Id": 1122345,
-      "Status": "Pending"
+      "id": 2,
+      "title": "Post 2"
     },
     {
-      "Id": 1123456,
-      "Status": "Close"
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
     }
   ],
   "profile": {
